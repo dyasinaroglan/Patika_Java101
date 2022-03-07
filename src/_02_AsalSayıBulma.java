@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AsalSayıBulma {
+public class _02_AsalSayıBulma {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("sayı giriniz");
