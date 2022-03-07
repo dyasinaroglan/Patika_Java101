@@ -2,7 +2,7 @@ package ifElse;
 
 import java.util.Scanner;
 
-public class burcBulmaProgramı {
+public class _09_burcBulmaProgramı {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("doğduğunuz ayı giriniz : ");

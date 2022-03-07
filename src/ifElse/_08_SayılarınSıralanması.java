@@ -2,7 +2,7 @@ package ifElse;
 
 import java.util.Scanner;
 
-public class SayılarınSıralanması {
+public class _08_SayılarınSıralanması {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("1.sayıyı giriniz");
