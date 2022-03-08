@@ -26,8 +26,15 @@ public class _07_UcakBiletiHesaplama {
         System.out.println("***yolculuk tipini seçiniz***\n1.tek yön\n2.gidiş-dönüş");
         int yolculukTipi = scanner.nextInt();
 
+
+
         double toplamBiletFiyatı = (double) mesafe*(0.10);
         int toplamIndırım =0;
+
+        if(yolculukTipi ==2){
+            double indirim = toplamBiletFiyatı*0.2;
+            toplamIndırım+=indirim;
+        }
 
         switch (yolculukTipi){
             case 1 :
@@ -46,15 +53,15 @@ public class _07_UcakBiletiHesaplama {
                 if(yas<12){
                     double indirim = toplamBiletFiyatı*0.5;
                     toplamIndırım+= indirim;
-                }else if (yas>=12 && yas<=24){
+
+                }else if (yas<=24){
                     double indirim = toplamBiletFiyatı*0.1;
                     toplamIndırım+= indirim;
+
                 }else if(yas>65){
                     double indirim = toplamBiletFiyatı*0.3;
                     toplamIndırım+= indirim;
-                }else if(yolculukTipi == 2){
-                    double indirim = toplamBiletFiyatı*0.2;
-                    toplamIndırım+= indirim;
+
                 }
                 break;
             default:
