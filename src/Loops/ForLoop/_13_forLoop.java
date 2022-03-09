@@ -14,9 +14,9 @@ public class _13_forLoop {
         int toplam = 0;
         System.out.println("sayı giriniz");
         int sayı = scanner.nextInt();
-        for (int i= 0; i<=sayı; i++ ){
-            if(i%4 == 0){
-                toplam+= i;
+        for (int i = 0; i <= sayı; i++) {
+            if (i % 4 == 0 ) {
+                toplam += i;
             }
         }
         System.out.println("toplam : " + toplam);
