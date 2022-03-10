@@ -1,4 +1,4 @@
-package Loops.ForLoop;
+package loops.forLoop;
 
 public class _03sumOfNumbers {
     public static void main(String[] args) {

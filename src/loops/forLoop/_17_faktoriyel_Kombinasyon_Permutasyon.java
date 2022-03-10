@@ -1,4 +1,4 @@
-package Loops.ForLoop;
+package loops.forLoop;
 
 public class _17_faktoriyel_Kombinasyon_Permutasyon {
     public static void main(String[] args) {

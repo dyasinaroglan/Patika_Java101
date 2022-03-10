@@ -1,4 +1,4 @@
-package Loops.WhileLoop;
+package loops.whileLoop;
 
 import java.util.Scanner;
 

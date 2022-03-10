@@ -1,6 +1,5 @@
-package Loops.ForLoop;
+package loops.forLoop;
 
-import java.sql.Array;
 import java.util.Arrays;
 
 public class _06_CopyArray {

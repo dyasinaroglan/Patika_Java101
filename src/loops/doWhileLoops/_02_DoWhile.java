@@ -1,4 +1,4 @@
-package Loops.DoWhileLoops;
+package loops.doWhileLoops;
 
 public class _02_DoWhile {
     public static void main(String[] args) {

@@ -1,21 +1,25 @@
-package Loops.ForLoop;
+package loops.forLoop;
 
 import java.util.Scanner;
 
-public class _16_sayınınKuvvetleriHesaplama {
+public class _15_sayınınKuvvetleriniHesaplam {
     public static void main(String[] args) {
+        /*
+        girilen sayıya kadar olan 4 ve 5'ın kuvvetlerini ekrana yazdıran program.
+         */
         Scanner scanner = new Scanner(System.in);
         System.out.println("sayı giriniz");
         int sayı = scanner.nextInt();
-        int i = 1;
 
+        int i = 1;
         while (true) {
             if (i <= sayı) {
-                System.out.println(i);
+                System.out.print(i);
             } else {
                 break;
             }
-            i *= 5;
+            i*=4;
         }
+
     }
 }
