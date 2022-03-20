@@ -1,3 +1,5 @@
+package loops.forLoop;
+
 import java.util.Scanner;
 
 public class HarmonikSayıBulma {

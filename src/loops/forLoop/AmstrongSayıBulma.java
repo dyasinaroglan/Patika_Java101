@@ -1,3 +1,5 @@
+package loops.forLoop;
+
 public class AmstrongSayıBulma {
     public static void main(String[] args) {
 
